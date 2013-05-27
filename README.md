@@ -39,7 +39,7 @@ Wombat allows any config available in the [Phoenix Theme](https://github.com/net
 You just have to change the prefix from `phoenix_` to `_wombat`. Here are defaults set by Wombat:
 
 ```
-    "wombat_color_blue": true,
+  "wombat_color_blue": true,
   "wombat_color_expanded_folder": true,
   "wombat_dirty_bottom_bar": true,
   "wombat_dirty_bottom_bar_blue": true,
