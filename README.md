@@ -7,18 +7,17 @@
 * Works for Sublime Text 2 and 3
 * Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation)
 * Sets few useful default options (you can change them in the User config):
-  ```json
-  {
-    "auto_complete_commit_on_tab": true,
-    "highlight_line": true,
-    "overlay_scroll_bars": "enabled",
-    "show_full_path": true,
-    "tab_size": 2,
-    "translate_tabs_to_spaces": true,
-    "use_simple_full_screen": true
-  }
   ```
-
+    {
+      "auto_complete_commit_on_tab": true,
+      "highlight_line": true,
+      "overlay_scroll_bars": "enabled",
+      "show_full_path": true,
+      "tab_size": 2,
+      "translate_tabs_to_spaces": true,
+      "use_simple_full_screen": true
+    }
+  ```
 * Any italics in Wombat theme are disabled. Everything's straight now.
 * A bit darker background. I find it more easthetic and easier to read.
 * Supports high resolution Retina displays.
@@ -28,7 +27,7 @@
 
 Install it by [Sublime Package Control](http://wbond.net/sublime_packages/package_control) and set following setting:
 
-```json
+```
 {
   "theme": "Wombat.sublime-theme"
 }
