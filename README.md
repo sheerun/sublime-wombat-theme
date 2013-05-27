@@ -1,6 +1,6 @@
 # Wombat Theme
 
-![Wombat Theme](http://d.pr/i/F9XH.png)
+![Wombat Theme](http://d.pr/i/ycvV.png)
 
 ## Features
 
