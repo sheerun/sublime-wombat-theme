@@ -4,12 +4,13 @@
 
 ## Features
 
-* Works for Sublime Text 2 and 3
-* Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation)
-* Any italics in Wombat theme are disabled. Everything's straight now.
-* A bit darker background. I find it more easthetic and easier to read.
+* Works for Sublime Text 3 (and 2).
+* Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 * Supports high resolution Retina displays.
-* Sets few useful default options (you can change them):
+* Any italic fonts are disabled. Everything's straight.
+* A bit darker background. I find it more easthetic and easier to read.
+
+It also sets few default options I find useful (you can always change them):
 
   ```
   "auto_complete_commit_on_tab": true,
