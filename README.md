@@ -24,7 +24,7 @@ It also sets few default options I find useful (you can always change them):
 
 ## Installation
 
-Install it by [Sublime Package Control](http://wbond.net/sublime_packages/package_control) and set following setting:
+Install it by [Sublime Package Control](http://wbond.net/sublime_packages/community) and set following setting:
 
 ```
   "theme": "Wombat.sublime-theme",
