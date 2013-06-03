@@ -27,7 +27,8 @@ It also sets few default options I find useful (you can always change them):
 Install it by [Sublime Package Control](http://wbond.net/sublime_packages/package_control) and set following setting:
 
 ```
-  "theme": "Wombat.sublime-theme"
+  "theme": "Wombat.sublime-theme",
+  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme"
 ```
 
 You also need to restart Sublime Text.
