@@ -1,6 +1,6 @@
 # Wombat Theme
 
-![Wombat Theme](http://d.pr/i/qv1j.png)
+![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.png)
 
 ## Features
 
