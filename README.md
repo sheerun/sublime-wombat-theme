@@ -1,6 +1,6 @@
 # Wombat Theme
 
-![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.png)
+![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.gif)
 
 ## Features
 
@@ -28,7 +28,9 @@ Install it by [Sublime Package Control](http://wbond.net/sublime_packages/commun
 
 ```
   "theme": "Wombat.sublime-theme",
-  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme"
+  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
+  // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
+  // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
 ```
 
 You also need to restart Sublime Text.
