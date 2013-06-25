@@ -8,7 +8,7 @@
 * Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 * Supports high resolution Retina displays.
 * Any italic fonts are disabled. Everything's straight.
-* A bit darker background. I find it more easthetic and easier to read.
+* Two more theme variations. One with darker background and one like Nexus Theme.
 
 It also sets few default options I find useful (you can always change them):
 
