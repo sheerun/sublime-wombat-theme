@@ -2,12 +2,28 @@
 
 ![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.gif)
 
+## Installation
+
+Install it using [Sublime Package Control](http://wbond.net/sublime_packages/community) and set following setting:
+
+```
+  "theme": "Wombat.sublime-theme",
+  "wombat_color_blue": true,
+  "wombat_dirty_bottom_bar_blue": true,
+
+  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
+  // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
+  // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
+```
+
+You also need to restart Sublime Text.
+
 ## Features
 
 * Works for Sublime Text 3 (and 2).
 * Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 * Supports high resolution Retina displays.
-* Any italic fonts are disabled. Everything's straight.
+* Any italic fonts are disabled.
 * Two more theme variations. One with darker background and one like Nexus Theme.
 
 It also sets few default options I find useful (you can always change them):
@@ -22,19 +38,6 @@ It also sets few default options I find useful (you can always change them):
   "use_simple_full_screen": true
 ```
 
-## Installation
-
-Install it by [Sublime Package Control](http://wbond.net/sublime_packages/community) and set following setting:
-
-```
-  "theme": "Wombat.sublime-theme",
-  "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
-  // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
-  // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
-```
-
-You also need to restart Sublime Text.
-
 ## Customization
 
 Wombat allows any config available in the [Phoenix Theme](https://github.com/netatoo/phoenix-theme). 
@@ -42,10 +45,8 @@ Wombat allows any config available in the [Phoenix Theme](https://github.com/net
 You just have to change the prefix from `phoenix_` to `_wombat`. Here are defaults set by Wombat:
 
 ```
-  "wombat_color_blue": true,
   "wombat_color_expanded_folder": true,
   "wombat_dirty_bottom_bar": true,
-  "wombat_dirty_bottom_bar_blue": true,
   "wombat_sidebar_tree_small": true,
   "wombat_solid_current_tab": true,
   "wombat_tabs_medium": true

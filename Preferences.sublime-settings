@@ -1,10 +1,8 @@
 {
   "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
   "draw_shadows": false,
-  "wombat_color_blue": true,
   "wombat_color_expanded_folder": true,
   "wombat_dirty_bottom_bar": true,
-  "wombat_dirty_bottom_bar_blue": true,
   "wombat_sidebar_tree_small": true,
   "wombat_solid_current_tab": true,
   "wombat_tabs_medium": true,

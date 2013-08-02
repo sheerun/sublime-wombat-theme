@@ -1112,19 +1112,6 @@
         "attributes": ["dirty", "hover"],
         "layer0.texture": "Wombat Theme/Images/colors/blue/tab-hover-dirty.png"
     },
-    // BLUE
-    {
-        "class": "tab_control",
-        "settings": ["wombat_dirty_bottom_bar", "wombat_dirty_bottom_bar_blue"],
-        "attributes": ["dirty"],
-        "layer0.texture": "Wombat Theme/Images/colors/blue/tab-inactive-dirty.png"
-    },
-    {
-        "class": "tab_control",
-        "settings": ["wombat_dirty_bottom_bar", "wombat_dirty_bottom_bar_blue"],
-        "attributes": ["dirty", "hover"],
-        "layer0.texture": "Wombat Theme/Images/colors/blue/tab-hover-dirty.png"
-    },
     // YELLOW
     {
         "class": "tab_control",
