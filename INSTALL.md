@@ -1,7 +1,4 @@
-Thank you for installing Wombat Theme
-=====================================
-
-To complete installation, add following to your User Settings:
+To complete installation, append following to your User Settings:
 
     "theme": "Wombat.sublime-theme",
     "wombat_color_blue": true,
@@ -13,5 +10,5 @@ To complete installation, add following to your User Settings:
 
 You also need to restart Sublime Text!
 
-NOTE: Since versoin 1.3.0 Wombat Theme is gray by default.
-      Neverthless I encourage to use blue theme, see the configuration above.
+NOTE: Since version 1.3.0 Wombat Theme is gray by default.
+      Neverthless I encourage to use blue theme (see the configuration above).
