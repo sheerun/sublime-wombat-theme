@@ -4,9 +4,10 @@
 
 ## Installation
 
-Install it using [Sublime Package Control](http://wbond.net/sublime_packages/community) and set following setting:
+Install it using [Sublime Package Control](http://wbond.net/sublime_packages/community) and append following settings:
 
-```
+```json
+{
   "theme": "Wombat.sublime-theme",
   "wombat_color_blue": true,
   "wombat_dirty_bottom_bar_blue": true,
@@ -14,6 +15,7 @@ Install it using [Sublime Package Control](http://wbond.net/sublime_packages/com
   "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
   // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
   // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
+}
 ```
 
 You also need to restart Sublime Text.
@@ -28,7 +30,8 @@ You also need to restart Sublime Text.
 
 It also sets few default options I find useful (you can always change them):
 
-```
+```json
+{
   "auto_complete_commit_on_tab": true,
   "highlight_line": true,
   "overlay_scroll_bars": "enabled",
@@ -36,6 +39,7 @@ It also sets few default options I find useful (you can always change them):
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "use_simple_full_screen": true
+}
 ```
 
 ## Customization
@@ -44,12 +48,14 @@ Wombat allows any config available in the [Phoenix Theme](https://github.com/net
 
 You just have to change the prefix from `phoenix_` to `_wombat`. Here are defaults set by Wombat:
 
-```
+```json
+{
   "wombat_color_expanded_folder": true,
   "wombat_dirty_bottom_bar": true,
   "wombat_sidebar_tree_small": true,
   "wombat_solid_current_tab": true,
   "wombat_tabs_medium": true
+}
 ```
 
 You can disable them by changing `true` to `false` in your User settings.
