@@ -69,3 +69,7 @@ You can disable them by changing `true` to `false` in your User settings.
 ## License
 
 Wombat is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are awesome.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sheerun/sublime-wombat-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
