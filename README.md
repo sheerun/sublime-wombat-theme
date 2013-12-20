@@ -46,7 +46,7 @@ It also sets few default options I find useful (you can always change them):
 
 Wombat allows any config available in the [Phoenix Theme](https://github.com/netatoo/phoenix-theme). 
 
-You just have to change the prefix from `phoenix_` to `_wombat`. Here are defaults set by Wombat:
+You just have to change the prefix from `phoenix_` to `wombat_`. Here are defaults set by Wombat:
 
 ```json
 {
