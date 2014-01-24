@@ -21,7 +21,6 @@ Here are the defaults set by Wombat theme (notice use_simple_full_screen is enab
     "wombat_tabs_medium": true,
     "auto_complete_commit_on_tab": true,
     "highlight_line": true,
-    "margin": -4,
     "overlay_scroll_bars": "enabled",
     "show_full_path": true,
     "tab_size": 2,
