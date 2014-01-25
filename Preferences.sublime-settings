@@ -11,5 +11,6 @@
   "overlay_scroll_bars": "enabled",
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "use_simple_full_screen": true
+  "use_simple_full_screen": true,
+  "margin": 0
 }
