@@ -1,6 +1,6 @@
 # Wombat Theme
 
-![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.gif)
+![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.png)
 
 ## Installation
 
@@ -11,14 +11,11 @@ Install it using [Sublime Package Control](http://wbond.net/sublime_packages/com
   "theme": "Wombat.sublime-theme",
   "wombat_color_blue": true,
   "wombat_dirty_bottom_bar_blue": true,
-
   "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
-  // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
-  // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
 }
 ```
 
-You also need to restart Sublime Text.
+You need to restart Sublime Text!
 
 ## Features
 
@@ -35,7 +32,6 @@ It also sets few default options I find useful (you can always change them):
   "auto_complete_commit_on_tab": true,
   "highlight_line": true,
   "overlay_scroll_bars": "enabled",
-  "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "use_simple_full_screen": true
@@ -44,7 +40,7 @@ It also sets few default options I find useful (you can always change them):
 
 ## Customization
 
-Wombat allows any config available in the [Phoenix Theme](https://github.com/netatoo/phoenix-theme). 
+Wombat allows any config available in the [Phoenix Theme](https://github.com/netatoo/phoenix-theme).
 
 You just have to change the prefix from `phoenix_` to `wombat_`. Here are defaults set by Wombat:
 

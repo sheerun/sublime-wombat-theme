@@ -6,9 +6,6 @@ But before that, append following to your User Settings (for blue theme):
     "wombat_color_blue": true,
     "wombat_dirty_bottom_bar_blue": true,
     "color_scheme": "Packages/Wombat Theme/Wombat.tmTheme",
-    
-    // "color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
-    // "color_scheme": "Packages/Wombat Theme/Wombat-nexus.tmTheme",
 
 Here are the defaults set by Wombat theme (notice use_simple_full_screen is enabled):
 
