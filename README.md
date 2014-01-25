@@ -1,4 +1,4 @@
-# Wombat Theme
+# Wombat Theme & Scheme for ST3
 
 ![Wombat Theme](https://dl.dropboxusercontent.com/u/9356056/wombat.png)
 
