@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install it using [Sublime Package Control](http://wbond.net/sublime_packages/community) and append following settings:
+Install it using [Sublime Package Control](http://wbond.net/sublime_packages/community) and append following settings (for blue theme, other are available):
 
 ```json
 {
@@ -15,15 +15,14 @@ Install it using [Sublime Package Control](http://wbond.net/sublime_packages/com
 }
 ```
 
-You need to restart Sublime Text!
+You need to restart Sublime Text(!)
 
 ## Features
 
 * Works for Sublime Text 3 (and 2).
 * Highly customizable thanks to [Phoenix Theme](http://netatoo.github.io/phoenix-theme/) and [Soda Theme](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation).
 * Supports high resolution Retina displays.
-* Any italic fonts are disabled.
-* Two more theme variations. One with darker background and one like Nexus Theme.
+* Any fancy font styles are purged.
 
 It also sets few default options I find useful (you can always change them):
 
@@ -66,6 +65,4 @@ You can disable them by changing `true` to `false` in your User settings.
 
 Wombat is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are awesome.
 
-
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/sheerun/sublime-wombat-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
