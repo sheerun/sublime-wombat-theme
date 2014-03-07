@@ -58,7 +58,7 @@ You can disable them by changing `true` to `false` in your User settings.
 ## Thanks
 
 * Ian Hill for [Soda Theme](https://github.com/buymeasoda/soda-theme)
-* Simon Martins for [Phoenx Theme](https://github.com/netatoo/phoenix-theme)
+* Simon Martins for [Phoenix Theme](https://github.com/netatoo/phoenix-theme)
 * Tony Kemp for [Wombat Color Scheme](https://gist.github.com/305111/c6c7a1e1e598d741a4848c5445d2012603cedcd3)
 
 ## License
