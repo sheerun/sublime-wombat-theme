@@ -1,3 +1,7 @@
+2.0.0:
+
+  - Support for new Sublime Text 3 sidebar folders
+
 1.4.0:
   - Make default theme more like wombat256.vim
   - Remove extra dark and nexus themes
