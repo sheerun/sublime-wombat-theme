@@ -15,6 +15,8 @@ Install it using [Sublime Package Control](http://wbond.net/sublime_packages/com
 }
 ```
 
+WARNING: For Sublime Text 2 you need to use `Wombat2.sublime-theme`.
+
 You need to restart Sublime Text(!)
 
 ## Features
