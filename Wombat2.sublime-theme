@@ -446,6 +446,7 @@
         "class": "sidebar_tree",
         "row_padding": [8, 6],
         "indent": 16,
+        "indent_offset": 16,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -597,41 +598,41 @@
 
     // Sidebar group closed
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Wombat Theme/Images/group-closed.png",
         "layer0.opacity": 0.4
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Wombat Theme/Images/group-closed.png",
         "layer0.opacity": 0.8
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Wombat Theme/Images/group-closed.png",
         "layer0.opacity": 1.0
     },
     // Sidebar group open
     {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/group-open.png",
         "layer0.opacity": 1.0
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover", "expanded"]}],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "layer0.texture": "Wombat Theme/Images/group-open.png",
         "layer0.opacity": 1.0
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected", "expanded"]}],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.texture": "Wombat Theme/Images/group-open.png",
         "layer0.opacity": 1.0
     },
@@ -1249,7 +1250,7 @@
         "layer0.texture": "Wombat Theme/Images/colors/red/sidebar-row-selected.png"
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "settings": ["wombat_color_red", "wombat_color_expanded_folder"],
         "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/colors/red/group-open.png",
@@ -1392,7 +1393,7 @@
         "layer0.texture": "Wombat Theme/Images/colors/green/sidebar-row-selected.png"
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "settings": ["wombat_color_green", "wombat_color_expanded_folder"],
         "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/colors/green/group-open.png",
@@ -1530,9 +1531,9 @@
         "layer0.texture": "Wombat Theme/Images/colors/blue/file-dirty-selected.png"
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "settings": ["wombat_color_blue", "wombat_color_expanded_folder"],
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/colors/blue/group-open.png",
         "layer0.opacity": 0.7
     },
@@ -1660,9 +1661,9 @@
         "layer0.texture": "Wombat Theme/Images/colors/yellow/file-dirty-selected.png"
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "settings": ["wombat_color_yellow", "wombat_color_expanded_folder"],
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/colors/yellow/group-open.png",
         "layer0.opacity": 0.7
     },
@@ -1798,9 +1799,9 @@
         "layer0.texture": "Wombat Theme/Images/colors/orange/file-dirty-selected.png"
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "settings": ["wombat_color_orange", "wombat_color_expanded_folder"],
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/colors/orange/group-open.png",
         "layer0.opacity": 0.75
     },
@@ -1941,9 +1942,9 @@
         "layer0.texture": "Wombat Theme/Images/colors/pink/sidebar-row-selected.png"
     },
     {
-        "class": "icon_folder",
+        "class": "disclosure_button_control",
         "settings": ["wombat_color_pink", "wombat_color_expanded_folder"],
-        "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+        "attributes": ["expanded"],
         "layer0.texture": "Wombat Theme/Images/colors/pink/group-open.png",
         "layer0.opacity": 0.75
     },
@@ -2102,31 +2103,6 @@
         "settings": ["wombat_classic_tabs", "wombat_eighties"],
         "attributes": ["selected"],
         "layer0.texture": "Wombat Theme/Images/classic/tab-active.eighties.png"
-    },
-    // Sidebar folder loading
-    {
-        "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
-                "Wombat Theme/Images/spinner/spinner7.png",
-                "Wombat Theme/Images/spinner/spinner6.png",
-                "Wombat Theme/Images/spinner/spinner5.png",
-                "Wombat Theme/Images/spinner/spinner4.png",
-                "Wombat Theme/Images/spinner/spinner3.png",
-                "Wombat Theme/Images/spinner/spinner2.png",
-                "Wombat Theme/Images/spinner/spinner1.png",
-                "Wombat Theme/Images/spinner/spinner.png"
-            ],
-            "loop": true,
-            "frame_time": 0.075
-        },
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-   {
-      "class": "icon_file_type",
-      "content_margin": [0, 0]
-   }
+    }
+
 ]
