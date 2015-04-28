@@ -1,3 +1,7 @@
+2.0.1:
+
+  -Removed some oppressive and poor setting choices
+
 2.0.0:
 
   - Support for new Sublime Text 3 sidebar folders
