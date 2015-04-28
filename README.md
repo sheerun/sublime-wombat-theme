@@ -26,16 +26,27 @@ You need to restart Sublime Text(!)
 * Supports high resolution Retina displays.
 * Any fancy font styles are purged.
 
-It also sets few default options I find useful (you can always change them):
+Here are some options that I recommend using with wombat:
 
 ```json
 {
-  "auto_complete_commit_on_tab": true,
-  "highlight_line": true,
-  "overlay_scroll_bars": "enabled",
-  "tab_size": 2,
-  "translate_tabs_to_spaces": true,
-  "use_simple_full_screen": true
+    "auto_complete_commit_on_tab": true,
+    "overlay_scroll_bars": "true",
+    "show_full_path": true,
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true,
+    "use_simple_full_screen": true,
+}
+```
+
+
+These options are automatically changed when you install Wombat:
+
+```json
+{
+    "draw_shadows": false,
+    "highlight_line": true,
+    "margin": 0,
 }
 ```
 
